@@ -9,6 +9,9 @@ if (base == 'G' || base == 'C') {
 } 
 gc_count++; 
 } 
+// Add length reporting before the return statement
+cout << "Total Sequence Length: " << seq.length() << " bp" << endl;
+
 double gc_percentage = (static_cast<double> (gc_count) / seq.length()) cout << "Sequence: << seq << endl; 
 "1 
 cout << "GC Content: << gc_percentage << "%" << endl; 
